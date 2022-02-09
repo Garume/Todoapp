@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+<br>
+<div class="row">
+    <div class ="col-md-10">
+        <h1>Welcome to ToDo Application</h1>
+    </div>
+    <div class="col-md-2">
+        <a href="/admin" class="btn btn-primary">login</a>
+    </div>
+</div>
+
+<hr>
+<p>This is a ToDo Application by <b>FastAPI</b></p>
+<p>新規登録はこちらから</p>
+<a href="/register" class="btn btn-primary">新規登録</a>
+{% endblock %}
